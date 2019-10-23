@@ -79,8 +79,6 @@ class Die
 			ellipse(myX+35, myY+40, 10, 10);
 		}
 
-
-		//System.out.println(rollNum);
 	}
 	void show()
 	{
