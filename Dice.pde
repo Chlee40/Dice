@@ -32,7 +32,6 @@ class Die
 	}
 	void roll()
 	{	
-		System.out.println(rollNum);
 		if(rollNum == 1)
 		{
 			fill(0);
