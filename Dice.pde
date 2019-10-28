@@ -5,6 +5,7 @@ void setup()
 }
 void draw()
 {
+	int sum = 0;
 	background(200);
 	for(int y = 30; y < 500; y+=100)
 	{
@@ -13,8 +14,10 @@ void draw()
 			Die bob = new Die(x,y);
 			bob.show();
 			bob.roll();
+			sum = sum + bob.rollNum;
 			}
 		}
+	text("Sum of the dice is " + sum, 200,500);
 	}
 void mousePressed()
 {
